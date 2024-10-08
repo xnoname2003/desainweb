@@ -14,9 +14,8 @@ Di sini, Anda akan menemukan berbagai contoh implementasi desain dan pengembanga
 
 ## Daftar Isi
 
-1. [Proyek 1: Nama Proyek](#proyek-1)
-2. [Proyek 2: Nama Proyek](#proyek-2)
-3. [Proyek 3: Nama Proyek](#proyek-3)
+1. [Tugas1](/prak1-new.html)
+2. [Tugas2](//Tugas2)
 
 ## Instalasi
 
