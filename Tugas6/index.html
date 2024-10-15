@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuaca Jakarta dengan WeatherAPI<</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 id="header-city"></h1>
+            <img id="weather-icon" src="" alt="" />
+            <p id="city-temp"></p>
+            <p id="description"></p>
+        </div>
+
+        <div class="hourly-container">
+            <button id="left-btn" class="scroll-btn left-btn">&#9664;</button>
+            <div id="hourly-forecast" class="hourly-forecast">
+                <!-- Forecast per jam akan dimuat di sini -->
+            </div>
+            <button id="right-btn" class="scroll-btn right-btn">&#9654;</button>
+        </div>      
+
+        <div class="main-grid">
+            <div class="seven-day">
+                <h2 id="seven-day-title"></h2>
+                <br>
+                <ul id="seven-day-forecast">
+                    <!-- Ramalan 10 hari akan dimuat di sini -->
+                </ul>
+            </div>
+
+            <div id="info" class="info">
+                <h3 id="weather-info-title"></h3>
+                <p id="wind-info"></p>
+                <p id="humidity-info"></p>
+                <p id="uv-index-info"></p>
+                <p id="pressure-info"></p>
+                <p id="feels-like-info"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
