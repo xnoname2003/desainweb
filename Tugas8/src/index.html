@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praktikum Tailwind CSS</title>
+    <link href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/keen-slider.min.css" rel="stylesheet" />
+    <link href="../dist/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-900 text-white font-sans">
+    <!-- Navbar -->
+    <header class="bg-gray-800 p-5">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html">
+                <div class="flex items-center space-x-3">
+                    <img src="./img/logo.png" alt="Logo Praktikum" class="h-10 w-10">
+                    <h1 class="text-3xl font-bold">Praktikum</h1>
+                </div>
+            </a>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="index.html" class="hover:text-blue-300">Home</a></li>
+                    <li><a href="#about" class="hover:text-blue-300">About</a></li>
+                    <li><a href="#services" class="hover:text-blue-300">Services</a></li>
+                    <li><a href="#testimonial" class="hover:text-blue-300">Testimonial</a></li>
+                    <li><a href="#faq" class="hover:text-blue-300">FAQ</a></li>
+                    <li><a href="#" class="hover:text-blue-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Section Section Selamat Datang -->
+    <section class="bg-cover bg-center h-screen text-center flex flex-col justify-center items-center pb-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-5xl font-bold mb-4">Selamat Datang di Praktikum Tailwind CSS</h2>
+            <p class="text-xl mb-8">Belajar membuat layout dengan utility classes Tailwind CSS.</p>
+            <a href="#about" class="bg-teal-500 px-6 py-3 text-lg font-semibold rounded-lg hover:bg-teal-600">Mulai
+                Sekarang</a>
+        </div>
+    </section>
+
+    <!-- Section About Us -->
+    <section id="about" class="py-20 bg-gray-800">
+        <div class="container mx-auto flex flex-col lg:flex-row items-center lg:space-x-8">
+            <div class="lg:w-1/2 mb-8 lg:mb-0">
+                <img src="./img/project1.jpg" alt="About Us Image" class="rounded-lg shadow-lg">
+            </div>
+            <div class="lg:w-1/2 text-center lg:text-left">
+                <h2 class="text-4xl font-bold mb-4 text-teal-400">About Us</h2>
+                <p class="text-lg text-gray-400 mb-6">
+                    Kami adalah tim yang berdedikasi dalam memberikan pengalaman belajar berkualitas tinggi di bidang
+                    teknologi. Dengan pendekatan pembelajaran yang interaktif dan berorientasi pada praktik langsung,
+                    kami membantu siswa mempersiapkan diri untuk dunia kerja di industri teknologi yang terus
+                    berkembang.
+                </p>
+                <p class="text-lg text-gray-400 mb-6">
+                    Kursus kami mencakup berbagai topik, mulai dari pengembangan web, desain UI/UX, hingga manajemen
+                    database. Kami percaya bahwa setiap orang memiliki potensi untuk berhasil di bidang teknologi, dan
+                    kami ada di sini untuk membantu mereka mencapainya.
+                </p>
+                <a href="#services"
+                    class="bg-teal-500 px-6 py-3 text-lg font-semibold rounded-lg hover:bg-teal-600 transition duration-300">
+                    Learn More
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Services -->
+    <section id="services" class="py-20 bg-gray-900">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-4">Our Services</h2>
+            <p class="text-lg mb-8 text-gray-400">Layanan yang kami tawarkan untuk membantu Anda belajar lebih efektif
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <h3 class="text-2xl font-semibold mb-4">Web Development</h3>
+                    <p class="text-gray-400">Pelajari dasar hingga lanjutan tentang pengembangan web modern.</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <h3 class="text-2xl font-semibold mb-4">UI/UX Design</h3>
+                    <p class="text-gray-400">Meningkatkan kemampuan desain antarmuka dan pengalaman pengguna.</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <h3 class="text-2xl font-semibold mb-4">Database Management</h3>
+                    <p class="text-gray-400">Pelajari cara mengelola data dan membuat database yang efisien.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Testimonial -->
+    <section id="testimonial" class="py-20 bg-gray-800">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-4">What Our Students Say</h2>
+            <p class="text-lg mb-8 text-gray-400">Beberapa testimoni dari peserta kami yang telah belajar dan berhasil
+                meningkatkan keterampilannya</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-700 p-6 rounded-lg">
+                    <p class="text-gray-400 mb-4">"Belajar di sini sangat membantu saya untuk memahami konsep
+                        pengembangan web dengan lebih baik."</p>
+                    <h3 class="text-xl font-semibold">- Rina Andayani</h3>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-lg">
+                    <p class="text-gray-400 mb-4">"Instruktur sangat berpengalaman dan menyampaikan materi dengan cara
+                        yang mudah dimengerti."</p>
+                    <h3 class="text-xl font-semibold">- Budi Prasetyo</h3>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-lg">
+                    <p class="text-gray-400 mb-4">"Saya berhasil membuat website pertama saya setelah mengikuti
+                        pelatihan ini!"</p>
+                    <h3 class="text-xl font-semibold">- Maya Kusuma</h3>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-lg">
+                    <p class="text-gray-400 mb-4">"Saya berhasil membuat website pertama saya setelah mengikuti
+                        pelatihan ini!"</p>
+                    <h3 class="text-xl font-semibold">- Maya Kusuma</h3>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-lg">
+                    <p class="text-gray-400 mb-4">"Saya berhasil membuat website pertama saya setelah mengikuti
+                        pelatihan ini!"</p>
+                    <h3 class="text-xl font-semibold">- Maya Kusuma</h3>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-lg">
+                    <p class="text-gray-400 mb-4">"Saya berhasil membuat website pertama saya setelah mengikuti
+                        pelatihan ini!"</p>
+                    <h3 class="text-xl font-semibold">- Maya Kusuma</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section FAQ -->
+    <section id="faq" class="py-20 bg-gray-900">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-4">Frequently Asked Questions</h2>
+            <div class="space-y-8 text-left max-w-3xl mx-auto">
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold">Apa yang akan saya pelajari di kursus ini?</h3>
+                    <p class="text-gray-400">Anda akan belajar berbagai keterampilan di bidang pengembangan web, desain
+                        UI/UX, dan manajemen database.</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold">Apakah kursus ini cocok untuk pemula?</h3>
+                    <p class="text-gray-400">Ya, kursus ini dirancang untuk semua level, mulai dari pemula hingga yang
+                        ingin memperdalam keterampilan.</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold">Bagaimana cara saya mendaftar?</h3>
+                    <p class="text-gray-400">Anda bisa mendaftar dengan mengklik tombol "Mulai Sekarang" atau melalui
+                        halaman pendaftaran di website ini.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <!-- <div class="flex items-center justify-center p-12">
+        <div class="w-full">
+            <div
+                class="formbold-form-wrapper mx-auto hidden w-full max-w-[550px] rounded-lg border border-[#e0e0e0] bg-white">
+                <div class="flex items-center justify-between rounded-t-lg bg-[#6A64F1] py-4 px-9">
+                    <h3 class="text-xl font-bold text-white">Let's chat? - Online</h3>
+                    <button onclick="chatboxToogleHandler()" class="text-white">
+                        <svg width="17" height="17" viewBox="0 0 17 17" class="fill-current">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0.474874 0.474874C1.10804 -0.158291 2.1346 -0.158291 2.76777 0.474874L16.5251 14.2322C17.1583 14.8654 17.1583 15.892 16.5251 16.5251C15.892 17.1583 14.8654 17.1583 14.2322 16.5251L0.474874 2.76777C-0.158291 2.1346 -0.158291 1.10804 0.474874 0.474874Z" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0.474874 16.5251C-0.158291 15.892 -0.158291 14.8654 0.474874 14.2322L14.2322 0.474874C14.8654 -0.158292 15.892 -0.158291 16.5251 0.474874C17.1583 1.10804 17.1583 2.1346 16.5251 2.76777L2.76777 16.5251C2.1346 17.1583 1.10804 17.1583 0.474874 16.5251Z" />
+                        </svg>
+                    </button>
+                </div>
+                <form action="https://formbold.com/s/FORM_ID" method="POST" class="py-6 px-9">
+                    <div class="mb-5">
+                        <label for="name" class="mb-3 block text-base font-medium text-[#07074D]">
+                            Your Name
+                        </label>
+                        <input type="text" name="name" id="name" placeholder="ENter your name"
+                            class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+                    </div>
+                    <div class="mb-5">
+                        <label for="email" class="mb-3 block text-base font-medium text-[#07074D]">
+                            Email Address
+                        </label>
+                        <input type="email" name="email" id="email" placeholder="example@domain.com"
+                            class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+                    </div>
+
+                    <div class="mb-5">
+                        <label for="message" class="mb-3 block text-base font-medium text-[#07074D]">
+                            Message
+                        </label>
+                        <textarea rows="4" name="message" id="message" placeholder="Explain your queries"
+                            class="w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"></textarea>
+                    </div>
+                    <div>
+                        <button
+                            class="hover:shadow-form w-full rounded-md bg-[#6A64F1] py-3 px-8 text-center text-base font-semibold text-white outline-none">
+                            Start Chat
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="fixed bottom-5 right-5 z-50 flex max-w-[550px] items-center justify-end space-x-5">
+                <button class="flex h-[70px] w-[70px] items-center justify-center rounded-full bg-[#6A64F1] text-white"
+                    onclick="chatboxToogleHandler()">
+                    <span class="cross-icon hidden">
+                        <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0.474874 0.474874C1.10804 -0.158291 2.1346 -0.158291 2.76777 0.474874L16.5251 14.2322C17.1583 14.8654 17.1583 15.892 16.5251 16.5251C15.892 17.1583 14.8654 17.1583 14.2322 16.5251L0.474874 2.76777C-0.158291 2.1346 -0.158291 1.10804 0.474874 0.474874Z"
+                                fill="white" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0.474874 16.5251C-0.158291 15.892 -0.158291 14.8654 0.474874 14.2322L14.2322 0.474874C14.8654 -0.158292 15.892 -0.158291 16.5251 0.474874C17.1583 1.10804 17.1583 2.1346 16.5251 2.76777L2.76777 16.5251C2.1346 17.1583 1.10804 17.1583 0.474874 16.5251Z"
+                                fill="white" />
+                        </svg>
+                    </span>
+                    <span class="chat-icon">
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M19.8333 14.0002V3.50016C19.8333 3.19074 19.7103 2.894 19.4915 2.6752C19.2728 2.45641 18.976 2.3335 18.6666 2.3335H3.49992C3.1905 2.3335 2.89375 2.45641 2.67496 2.6752C2.45617 2.894 2.33325 3.19074 2.33325 3.50016V19.8335L6.99992 15.1668H18.6666C18.976 15.1668 19.2728 15.0439 19.4915 14.8251C19.7103 14.6063 19.8333 14.3096 19.8333 14.0002ZM24.4999 7.00016H22.1666V17.5002H6.99992V19.8335C6.99992 20.1429 7.12284 20.4397 7.34163 20.6585C7.56042 20.8772 7.85717 21.0002 8.16659 21.0002H20.9999L25.6666 25.6668V8.16683C25.6666 7.85741 25.5437 7.56066 25.3249 7.34187C25.1061 7.12308 24.8093 7.00016 24.4999 7.00016Z"
+                                fill="white" />
+                        </svg>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="fixed bottom-5 right-5 z-50">
+        <!-- Form chatbox yang muncul di atas bubble chat -->
+        <div id="chatForm"
+            class="hidden absolute bottom-full mb-4 right-0 w-[550px] rounded-lg border border-[#e0e0e0] bg-white shadow-lg">
+            <div class="flex items-center justify-between rounded-t-lg bg-[#6A64F1] py-4 px-6">
+                <h3 class="text-xl font-bold text-white">Let's chat? - Online</h3>
+                <button onclick="chatboxToogleHandler()" class="text-white">
+                    <svg width="17" height="17" viewBox="0 0 17 17" class="fill-current">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0.474874 0.474874C1.10804 -0.158291 2.1346 -0.158291 2.76777 0.474874L16.5251 14.2322C17.1583 14.8654 17.1583 15.892 16.5251 16.5251C15.892 17.1583 14.8654 17.1583 14.2322 16.5251L0.474874 2.76777C-0.158291 2.1346 -0.158291 1.10804 0.474874 0.474874Z" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0.474874 16.5251C-0.158291 15.892 -0.158291 14.8654 0.474874 14.2322L14.2322 0.474874C14.8654 -0.158292 15.892 -0.158291 16.5251 0.474874C17.1583 1.10804 17.1583 2.1346 16.5251 2.76777L2.76777 16.5251C2.1346 17.1583 1.10804 17.1583 0.474874 16.5251Z" />
+                    </svg>
+                </button>
+            </div>
+            <form action="https://formbold.com/s/FORM_ID" method="POST" class="py-6 px-9">
+                <div class="mb-5">
+                    <label for="name" class="mb-3 block text-base font-medium text-[#07074D]">
+                        Your Name
+                    </label>
+                    <input type="text" name="name" id="name" placeholder="ENter your name"
+                        class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+                </div>
+                <div class="mb-5">
+                    <label for="email" class="mb-3 block text-base font-medium text-[#07074D]">
+                        Email Address
+                    </label>
+                    <input type="email" name="email" id="email" placeholder="example@domain.com"
+                        class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+                </div>
+
+                <div class="mb-5">
+                    <label for="message" class="mb-3 block text-base font-medium text-[#07074D]">
+                        Message
+                    </label>
+                    <textarea rows="4" name="message" id="message" placeholder="Explain your queries"
+                        class="w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"></textarea>
+                </div>
+                <div>
+                    <button
+                        class="hover:shadow-form w-full rounded-md bg-[#6A64F1] py-3 px-8 text-center text-base font-semibold text-white outline-none">
+                        Start Chat
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Button bubble chat -->
+        <button
+            class="flex h-[70px] w-[70px] items-center justify-center rounded-full bg-[#6A64F1] text-white shadow-lg hover:bg-[#5A54D1] transition duration-300"
+            onclick="chatboxToogleHandler()">
+            <span class="chat-icon">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M19.8333 14.0002V3.50016C19.8333 3.19074 19.7103 2.894 19.4915 2.6752C19.2728 2.45641 18.976 2.3335 18.6666 2.3335H3.49992C3.1905 2.3335 2.89375 2.45641 2.67496 2.6752C2.45617 2.894 2.33325 3.19074 2.33325 3.50016V19.8335L6.99992 15.1668H18.6666C18.976 15.1668 19.2728 15.0439 19.4915 14.8251C19.7103 14.6063 19.8333 14.3096 19.8333 14.0002ZM24.4999 7.00016H22.1666V17.5002H6.99992V19.8335C6.99992 20.1429 7.12284 20.4397 7.34163 20.6585C7.56042 20.8772 7.85717 21.0002 8.16659 21.0002H20.9999L25.6666 25.6668V8.16683C25.6666 7.85741 25.5437 7.56066 25.3249 7.34187C25.1061 7.12308 24.8093 7.00016 24.4999 7.00016Z"
+                        fill="white" />
+                </svg>
+            </span>
+        </button>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 p-6 text-center">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Praktikum Tailwind CSS. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
