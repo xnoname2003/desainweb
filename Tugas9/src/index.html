@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id" class="dark">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praktikum Tailwind CSS - Grid Layout dan Dark Mode</title>
+    <link href="../dist/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 font-sans">
+
+    <header class="bg-primary text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Galeri Foto</h1>
+            <button id="dark-mode-toggle" class="btn toggle-dark-mode">Toggle Dark Mode</button>
+        </div>
+    </header>
+
+    <section class="py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-4">Selamat Datang di Galeri Kami</h2>
+            <p class="text-lg mb-8">Koleksi foto terbaik untuk Anda.</p>
+        </div>
+    </section>
+
+    <section id="gallery" class="container mx-auto px-4">
+        <!-- Konten akan diisi oleh JavaScript -->
+    </section>    
+
+    <footer class="bg-primary text-white p-4 mt-10">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Galeri Foto. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
