@@ -21,7 +21,9 @@ Di sini, Anda akan menemukan berbagai contoh implementasi desain dan pengembanga
 5. [Tugas5](https://github.com/xnoname2003/desainweb/tree/main/Tugas5)
 6. [Tugas6](https://github.com/xnoname2003/desainweb/tree/main/Tugas6)
 7. [Tugas7](https://github.com/xnoname2003/desainweb/tree/main/Tugas7)
-8. [LatihanPrak8](https://github.com/xnoname2003/desainweb/tree/main/LatihanPrak8)
+8. [Tugas8](https://github.com/xnoname2003/desainweb/tree/main/Tugas8)
+9. [LatihanPrak8](https://github.com/xnoname2003/desainweb/tree/main/LatihanPrak8)
+10. [Tugas8](https://github.com/xnoname2003/desainweb/tree/main/Tugas9)
 
 ## Instalasi
 
